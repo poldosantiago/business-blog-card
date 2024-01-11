@@ -1,0 +1,14 @@
+:root{
+	/*cores*/
+	--color1: #F2F5F9;
+	--color2: #FFFFFF;
+	--color3: #111729;
+	--color4: #677489;
+
+	/* fontes */
+	--fonte-padrao: 'Lato', sans-serif;
+	--fonte-titulo: font-family: 'Poppins', sans-serif;
+}	
+
+
+

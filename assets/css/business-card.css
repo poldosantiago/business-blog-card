@@ -1,0 +1,70 @@
+
+.bizcard{
+    width: calc(348px + 20px + 20px);
+    background-color: var(--color2);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bizcard__header{
+    position: relative;
+}
+
+.bizcard__header__img{
+    /* clip-path: polygon(100% 0%, 0% 0% , 0.00% 91.39%, 2.00% 92.48%, 4.00% 93.51%, 6.00% 94.44%, 8.00% 95.28%, 10.00% 96.01%, 12.00% 96.61%, 14.00% 97.08%, 16.00% 97.41%, 18.00% 97.59%, 20.00% 97.62%, 22.00% 97.51%, 24.00% 97.24%, 26.00% 96.84%, 28.00% 96.29%, 30.00% 95.62%, 32.00% 94.83%, 34.00% 93.94%, 36.00% 92.95%, 38.00% 91.89%, 40.00% 90.76%, 42.00% 89.60%, 44.00% 88.42%, 46.00% 87.23%, 48.00% 86.05%, 50.00% 84.91%, 52.00% 83.82%, 54.00% 82.80%, 56.00% 81.86%, 58.00% 81.02%, 60.00% 80.29%, 62.00% 79.69%, 64.00% 79.22%, 66.00% 78.89%, 68.00% 78.71%, 70.00% 78.68%, 72.00% 78.79%, 74.00% 79.06%, 76.00% 79.47%, 78.00% 80.01%, 80.00% 80.68%, 82.00% 81.47%, 84.00% 82.37%, 86.00% 83.36%, 88.00% 84.42%, 90.00% 85.54%, 92.00% 86.70%, 94.00% 87.89%, 96.00% 89.08%, 98.00% 90.25%, 100.00% 91.39%); */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+}
+
+.bizcard__header__svg{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+.bizcard__content{
+    margin: 0px 20px 20px 20px;
+}
+
+.bizcard__content__title{
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: var( --color3);
+}
+
+.bizcard__content__paragraph{
+    font-size: 16px;
+    line-height: 20px;
+    color: var( --color4);
+}
+
+.bizcard__footer{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var( --color1);
+}
+
+.bizcard__footer__img{
+    width: 40px;
+    clip-path: circle(50%);
+    margin-right: 16px;
+}
+
+.bizcard__footer__title{
+    color: var( --color3);
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.bizcard__footer__description{
+    color: var( --color4);
+    font-size: 12px;
+}
