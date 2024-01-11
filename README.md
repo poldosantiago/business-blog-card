@@ -6,4 +6,6 @@ Para conferir o resultado, clique [aqui](https://business-blog-card-teal.vercel.
 
 A página do desafio pode ser acessada [aqui](https://devchallenges.io/challenge/28).
 
-Confesso que não conferi os  do projeto, 
+## Aprendizado
+
+Confesso que não conferi os arquivos do projeto. Pensei que deveria simular o efeito da onda com CSS. Achei uma possível solução usando o recurso [clip-path](https://www.w3schools.com/cssref/css3_pr_clip-path.php) do CSS, do qual desconhecia. Porém, no final, usei o .svg mesmo. O lado bom foi disso foi que usei o "clip-path" na imagem do Avatar.
